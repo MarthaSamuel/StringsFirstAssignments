@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=FindGeneSimpleAndTest
+comment0.text=\r\n\ FIndGeneSimpleAndTest\ is\ a\ practice\ code\ for\ finding\ gene\ from\ dna\ strands.here\ we\ arent\ considering\ that\ genes\ should\ be\ a\ multiple\ of\ 3\r\n\ N4a\r\n\ @author\ Dimgba\ Martha\ Otisi\r\n\ 2020,\ January\r\n\ @martha_samuel_\r\n
+comment1.params=dna
+comment1.target=java.lang.String\ findGeneSimple(java.lang.String)
+comment2.params=
+comment2.target=void\ testFindGeneSimple()
+numComments=3

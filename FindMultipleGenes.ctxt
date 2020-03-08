@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=FindMultipleGenes
+comment1.params=dnaStr\ startIndex\ stopCodon
+comment1.target=int\ findStopCodon(java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=void\ testfindStop()
+comment3.params=dna\ where
+comment3.target=java.lang.String\ findGene(java.lang.String,\ int)
+comment4.params=dna
+comment4.target=edu.duke.StorageResource\ getAllGenes(java.lang.String)
+comment4.text=public\ void\ printAllGenes(String\ dna){\r\n\ \ \ \ \ \ \ //set\ startindex\ to\ 0\r\n\ \ \ \ \ \ int\ startIndex\=0;\r\n\ \ \ \ \ \ \ //repeat\ the\ following\ steps/if\ the\ condition\ of\ the\ loop\ is\ true\r\n\ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ while(true){\r\n\ \ \ \ \ \ \ \ \ \ \ //find\ the\ next\ gene\ after\ startindex\r\n\ \ \ \ \ \ \ \ \ \ \ String\ currentGene\=findGene(dna,startIndex);\r\n\ \ \ \ \ \ \ \ \ \ \ //if\ no\ gene\ was\ found\ leave\ the\ loop\r\n\ \ \ \ \ \ \ \ \ \ \ if(currentGene.isEmpty()){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ break;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ //print\ that\ gene\ out\r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println(currentGene);\r\n\ \ \ \ \ \ \ \ \ \ \ \ //set\ the\ startindex\ to\ just\ past\ the\ end\ of\ the\ gene\r\n\ \ \ \ \ \ \ \ \ \ \ \ startIndex\=dna.indexOf(currentGene,startIndex)+currentGene.length();\r\n\ \ \ \ \ \ \ \ }\r\n}
+comment5.params=dna
+comment5.target=void\ testOn(java.lang.String)
+comment5.text=public\ void\ testOn(String\ dna){\r\n\ \ \ \ \ \ \ \ System.out.println("Testing\ printAllGenes\ on"\ +\ dna);\r\n\ \ \ \ \ \ \ \ printAllGenes(dna);\r\n}
+comment6.params=
+comment6.target=void\ test()
+numComments=7
